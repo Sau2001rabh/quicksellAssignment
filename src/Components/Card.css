@@ -1,0 +1,51 @@
+/* Card.css */
+.card-flex {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  border-radius: 8px;
+  color: grey;
+  width: 16vw;
+  margin-top: 8px;
+  /* z-index: 0; */
+}
+
+.card-id {
+  color: grey;
+  font-weight: bold;
+}
+.card-title {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  font-weight: 100;
+}
+.card-id-avatar {
+  display: flex;
+  justify-content: space-between;
+}
+.card-avatar-placeholder {
+  background-color: rgb(126, 123, 122);
+  color: white;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+.card-tag {
+  background-color: white;
+  color: grey;
+  border: none;
+  font-weight: 400;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
+  border-color: grey;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+.card-tag-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 400k;
+}
